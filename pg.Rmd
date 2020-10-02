@@ -1,0 +1,27 @@
+---
+title: "Coursera"
+author: "Mehmet Bora"
+date: "05/09/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file.
+
+
+
+
+```{r iris}
+library(psych)
+describe(iris)
+```
+
+```{r echo=FALSE}
+print("THANK YOU FOR REVIEWING !")
+```
+
